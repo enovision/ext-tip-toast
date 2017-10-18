@@ -11,7 +11,7 @@ Modify your `app.json` file and add include the package in the requirements:
 ```
 "requires": [
     ...,
-    "TipToast"
+    "ext-tip-toast"
     ...
 ],
 ```
@@ -19,7 +19,7 @@ Modify your `app.json` file and add include the package in the requirements:
 ### Prerequisites
 
 This package was developed using `Sencha Cmd 6.5` and `Ext JS 6.2.1` classic. I guess that 
-this package will also work with Ext JS version 5, but has not been tested.
+this package should also work with Ext JS version 5, but has not been tested.
 
 This package has its own SASS styling and is not depending on a Sencha theme.
 
