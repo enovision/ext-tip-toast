@@ -1,17 +1,17 @@
 {
     "name": "ext-tip-toast",
-
     "sencha": {
-         "namespace": "TipToast",
-         "type": "code",
-         "toolkit": "classic",
-         "creator": "Johan van de Merwe, Enovision GmbH",
-         "summary": "Tooltip class (alert), kind of Android'Toast/Temporary slide-in-slide-out message",
-         "detailedDescription": "This class was inspired by Sencha Ext.example.msg (see their examples), BootStrap, and Android's Toast It display a message (with a title) sliding in from top of the screen, then sliding out. The additional styles (warning, info, danger, success) come directly from Bootstrap 3.4.x (@see getbootstrap.com)",
-         "version": "1.0.0",
-         "compatVersion": "1.0.0",
-         "format": "1",
-         "slicer": {
+        "namespace": "TipToast",
+        "type": "code",
+        "toolkit": "classic",
+        "creator": "enovision",
+        "theme" : "ext-theme-classic",
+        "summary": "Tiptoast Slide Message",
+        "detailedDescription": "Tiptoast Slide Message",
+        "version": "1.0.4",
+        "compatVersion": "1.0.0",
+        "format": "1",
+        "slicer": {
             "js": [
                 {
                     "path": "${package.dir}/sass/example/custom.js",
@@ -22,7 +22,7 @@
         "output": "${package.dir}/build",
         "local": true,
         "sass" : {
-            "namespace": "ExtTipToast",
+            "namespace": "TipToast",
             "etc": [
                 "${package.dir}/sass/etc/all.scss"
              ],
@@ -39,11 +39,7 @@
         "overrides": [
             "${package.dir}/overrides"
         ],
-        "example": {
-            "path": [
-                "${package.dir}/examples"
-            ]
-        },
+        "framework": "ext",
         "requires": []
     }
 }
